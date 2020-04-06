@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Kamil Dziekan Portfoli</title>
+		<title>Kamil Dziekan Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,8 +20,8 @@
 				<!-- One -->
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>Kamil Dziekan</h1>
-              <h2>Software Engineer</h2>
+							<h1 class="intro">Kamil Dziekan</h1>
+              <h2 class="intro">Software Engineer</h2>
               <hr>
 							<p class="major">“Life is short. Don't be lazy.” </p>
               <p class="major">-Sophia Amoruso</p>
@@ -37,8 +37,8 @@
 				<!-- Two -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h2>Introduction</h2>
-							<p>Hello There!. Thank you for stopping by. Let me introduce  myself. My name is Kamil Dziekan and I'm a software engineer. I'm from Chicago but almost all my life I was raised in Poland.
+							<h1 class="intro">Introduction</h1>
+							<p>Hello There!. Thank you for stopping by. Let me introduce  myself. My name is Kamil Dziekan and I'm a software engineer. I'm from Chicago but almost all my life I was living in Poland.
                 In 2016 I decided to come back to the states. In the past few years I have had many adventures, I travel around the USA and I love that. I saw many beautiful cities, and I want to see more. I'm the person who is not afraid of new challenges. One of them was learning english, and also learning how to drive a semi truck. That was fun by the way. My next step was learning how to code, I accomplished that.
                 Now ...  Now I want to learn more and more about that and that is my goal for this year.
                 You can see a few of my projects below, I hope you enjoy watching them, I had a lot of fun making them. 
@@ -63,8 +63,8 @@
 
 				<!-- Three -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Sniffer</h2>
+						<div class="content ">
+							<h1 class="size-text">Sniffer</h1>
 							<p>It's an adoption app for dogs. You can adopt a dog, also you can post a dog for adoption. 
                 I use Ruby on Rails for back-end, and Vue.js for front-end. In this app you can request adoption, the owner of the dog will be able to see it and also approve you or not. I added twilio to that soo owner also will receive a text message, whenever someone will send a request. In the text message will be the name of the dog and name of the user who wants to adopt a dog.
                 </p>
@@ -87,7 +87,7 @@
 				<!-- Four -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Guess Sucka App</h2>
+							<h2 class="size-text">Guess Sucka App</h2>
 							 <p>It's a trivia game. We use third party api for that. 
                   You can choose questions between 1 and 50, different categories and difficulty.
                   At the end you will see how many correct answers and how many wrong you have. 
@@ -102,7 +102,7 @@
 
           <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
             <div class="content">
-              <h2>Froyo App</h2>
+              <h2 class="size-text">Froyo App</h2>
               <p> It’s a scheduling app that allows users to schedule events, do-not-disturb fields, 
                 complex category parameters for rest and work times; Ruby on Rails backend, Vue.js frontend, Bootstrap styling.
               </p>
@@ -114,7 +114,7 @@
 
           <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
             <div class="content">
-              <h2>Solid Coffee App</h2>
+              <h2 class="size-text">Solid Coffee App</h2>
               <p> It's an app for displaying resumes, part of the microservices. Main server keeps all the data of the students resumen. 
                   This app is displaying resumes of all students,
                   and you also have a show page where you can see only one resume. It’s a front-end app in Vue.js
@@ -377,8 +377,14 @@
   .text {
     color: white;
   }
+  .size-text {
+    font-weight: bold;
+  }
   .back {
     background-color: white;
+  }
+  .intro {
+    font-weight: normal;
   }
   </style>
 </html>
