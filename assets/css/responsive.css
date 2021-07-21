@@ -1,0 +1,386 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.ellipsis {
+  white-space: nowrap;
+  /* 1 */
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  /* 2 */
+  overflow: hidden; }
+
+@media (max-width: 1600px) {
+  body.boxed-v #wrapper {
+    max-width: 95%; } }
+
+@media (max-width: 1500px) {
+  body.boxed-v #wrapper {
+    max-width: 100%; } }
+
+@media (max-width: 1549px) {
+  .abt-sec.style2 .img-holder {
+    width: 650px;
+    top: 40px; } }
+
+@media (max-width: 1199px) {
+  .banner.banner2 {
+    padding: 140px 0; }
+  .banner .caption {
+    padding: 132px 30px 132px 90px; }
+  .skill-sec .progress-bar {
+    padding: 0 0 0 33px; }
+  .skill-sec .circle {
+    width: 100%; }
+  .abt-sec.style2 {
+    padding: 0 0 65px; }
+    .abt-sec.style2 .img-holder {
+      left: -170px; }
+      .abt-sec.style2 .img-holder .caption {
+        right: 65px;
+        padding: 39px 100px; }
+  .header br {
+    display: none; }
+  .portfolio-sec .portfolio-holder .item {
+    width: 310px; }
+    .portfolio-sec .portfolio-holder .item.item2 {
+      width: 245px; }
+  .price-sec .price-list .btn {
+    padding: 12px 17px;
+    font-size: 17px; }
+  .price-sec .price-holder .price-col.active {
+    -webkit-transform: scale(1.1, 1.2);
+    -ms-transform: scale(1.1, 1.2);
+    transform: scale(1.1, 1.2); }
+  .interest-sec .icon {
+    padding: 38px 30px;
+    width: 100%;
+    height: 150px; }
+  .blog-sec .blog h3 {
+    font-size: 22px; }
+  .blog-sec .blog .post-nav {
+    margin: 0 0 13px; }
+  .blog-sec .blog .txt-holder p {
+    margin: 0 0 11px; }
+  .contact-sec .contact-list li {
+    margin: 0 0 0 40px; }
+  .comments-block .comment-area .txt-holder {
+    width: 85%; } }
+
+@media (max-width: 1023px) {
+  .pad-top-sm {
+    padding-top: 30px !important; }
+  .pad-top-lg {
+    padding-top: 60px !important; }
+  .pad-bottom-sm {
+    padding-bottom: 30px !important; }
+  .mar-bottom-sm {
+    margin-bottom: 30px !important; }
+  .mar-bottom-lg {
+    margin-bottom: 60px !important; }
+  .pad-bottom-md {
+    padding-bottom: 30px !important; }
+  .pad-bottom-lg {
+    padding-bottom: 60px !important; }
+  .banner {
+    padding: 80px 0 0;
+    min-height: 740px; }
+    .banner.banner2 {
+      padding: 100px 0; }
+    .banner .caption {
+      padding: 90px 30px; }
+      .banner .caption p {
+        margin: 0 0 50px; }
+    .banner h1 {
+      font-size: 60px; }
+    .banner .btn {
+      margin: 0 20px 0 0; }
+  .socail-network li {
+    margin: 0 21px 0 0; }
+  .abt-sec {
+    padding: 0 0 80px; }
+    .abt-sec.style2 .img-holder {
+      top: 31px; }
+      .abt-sec.style2 .img-holder .caption {
+        display: none; }
+  .education-sec {
+    padding: 80px 0 50px; }
+  .main-heading {
+    font-size: 60px;
+    line-height: 64px; }
+    .main-heading:before {
+      width: 190px;
+      left: 170px; }
+    .main-heading .fst-lt {
+      font-size: 180px;
+      line-height: 126px; }
+  .header span {
+    padding: 0 0 0 160px; }
+  .skill-sec {
+    padding: 80px 0; }
+    .skill-sec .progress-bar {
+      padding: 0; }
+  .service-sec {
+    padding: 80px 0; }
+  .portfolio-sec {
+    padding: 80px 0; }
+    .portfolio-sec .portfolio-holder .item {
+      width: 100%;
+      margin: 0 0 20px; }
+      .portfolio-sec .portfolio-holder .item.item2 {
+        width: 100%; }
+  .price-sec {
+    padding: 80px 0 110px; }
+    .price-sec .price-list {
+      font-size: 12px;
+      padding: 24px 0 32px; }
+      .price-sec .price-list .heading strong {
+        font-size: 30px;
+        line-height: 33px; }
+      .price-sec .price-list .heading .name {
+        font-size: 16px; }
+      .price-sec .price-list .btn {
+        font-size: 16px;
+        padding: 9px 17px; }
+  .testimonail-sec {
+    padding: 80px 0; }
+    .testimonail-sec .testimonail-slider .slide {
+      padding: 69px 40px 40px; }
+      .testimonail-sec .testimonail-slider .slide .img-holder {
+        left: 50px;
+        width: 139px; }
+  .interest-sec {
+    padding: 80px 0; }
+    .interest-sec .icon {
+      font-size: 52px;
+      height: 110px;
+      padding: 20px 10px; }
+  .blog-sec {
+    padding: 80px 0; }
+    .blog-sec .blog h3 {
+      font-size: 20px; }
+  .contact-sec {
+    padding: 80px 0; }
+    .contact-sec .img-holder {
+      width: 120px; }
+    .contact-sec .contact-list {
+      padding: 0 0 0 10px;
+      margin: -66px 0 0; }
+      .contact-sec .contact-list li {
+        margin: 0 0 0 18px; }
+      .contact-sec .contact-list strong {
+        font-size: 15px; }
+        .contact-sec .contact-list strong .icon {
+          margin: 0 4px 0 0; }
+  .twocolumns {
+    padding: 80px 0 40px; }
+    .twocolumns .slick-dots {
+      margin: 0 0 50px; }
+  .widget .post-list .img-holder {
+    width: 16%; } }
+
+@media (max-width: 767px) {
+  .pad-top-lg {
+    padding-top: 40px !important; }
+  .mar-bottom-lg {
+    margin-bottom: 0 !important; }
+  .pad-bottom-lg {
+    padding-bottom: 40px !important; }
+  .pad-bottom-md {
+    padding-bottom: 0 !important; }
+  #header {
+    left: 20px;
+    top: 10px; }
+  #nav {
+    padding: 40px 0;
+    overflow-y: auto;
+    height: 100vh; }
+  .banner {
+    padding: 50px 0 0;
+    min-height: 580px; }
+    .banner.banner2 {
+      padding: 40px 0; }
+      .banner.banner2 .breadcrumbs {
+        font-size: 35px;
+        line-height: 40px; }
+    .banner .caption {
+      padding: 50px 30px; }
+      .banner .caption .txt {
+        margin: 0 0 27px 13px; }
+      .banner .caption p {
+        letter-spacing: 6px;
+        margin: 0 0 30px; }
+    .banner h1 {
+      font-size: 45px;
+      line-height: 50px; }
+    .banner .btn {
+      margin: 0 0 20px; }
+  .main-heading {
+    font-size: 45px;
+    line-height: 54px; }
+    .main-heading:before {
+      left: 120px;
+      width: 150px; }
+    .main-heading .fst-lt {
+      font-size: 180px;
+      line-height: 100px; }
+  .abt-sec {
+    padding: 0 0 50px; }
+    .abt-sec.style2 .img-holder {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: -20px;
+      width: 300px; }
+      .abt-sec.style2 .img-holder .caption {
+        right: 0;
+        display: block;
+        padding: 20px 40px; }
+    .abt-sec.style2 .abt-holder {
+      padding: 330px 0 0; }
+    .abt-sec .img-holder {
+      width: 100%;
+      margin: 0 0 30px;
+      float: none; }
+    .abt-sec .txt-holder {
+      width: 100%;
+      float: none;
+      padding: 0; }
+    .abt-sec h3 {
+      font-size: 26px;
+      line-height: 28px; }
+    .abt-sec .personal-list {
+      font-size: 13px; }
+    .abt-sec .holder {
+      padding: 0; }
+    .abt-sec .btn {
+      margin: 0 0 30px; }
+  .education-sec {
+    padding: 80px 0 50px; }
+    .education-sec .edu-list li {
+      width: 100%;
+      float: none;
+      padding: 0;
+      margin: 0 0 30px;
+      overflow: hidden; }
+    .education-sec .edu-list .txt-holder {
+      padding: 24px 0 0 100px; }
+    .education-sec .edu-list .uni-name {
+      font-size: 19px; }
+    .education-sec .edu-list .sub-title {
+      margin: 0 0 20px; }
+  .main-heading:before {
+    left: 0; }
+  .main-heading.heading2 .fst-lt {
+    top: -65px;
+    font-size: 150px; }
+  .header span {
+    padding: 0; }
+  .skill-sec {
+    padding: 80px 0 50px; }
+    .skill-sec.style2 {
+      padding: 5px 0 40px; }
+  .service-sec {
+    padding: 80px 0 50px; }
+    .service-sec .header span {
+      padding: 0 0 30px; }
+  .portfolio-sec {
+    padding: 80px 0 50px; }
+    .portfolio-sec .filter-list {
+      font-size: 15px; }
+      .portfolio-sec .filter-list li {
+        margin: 0 18px 0 0; }
+  .price-sec {
+    padding: 80px 0 30px; }
+    .price-sec .header span {
+      padding: 0 0 50px; }
+    .price-sec .price-holder .price-col {
+      width: 100%;
+      float: none;
+      margin: 0 0 30px; }
+      .price-sec .price-holder .price-col.active {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none; }
+  .testimonail-sec {
+    padding: 80px 0 50px; }
+    .testimonail-sec .testimonail-slider .slick-prev,
+    .testimonail-sec .testimonail-slider .slick-next {
+      bottom: 50%; }
+  .interest-sec {
+    padding: 80px 0 50px; }
+    .interest-sec .icon {
+      width: 200px;
+      margin: 0 auto 20px; }
+    .interest-sec .txt-holder {
+      margin: 0 0 20px; }
+  .blog-sec {
+    padding: 80px 0 50px; }
+    .blog-sec .blog .img-holder {
+      width: 100%;
+      float: none;
+      margin: 0 0 30px; }
+    .blog-sec .blog .txt-holder {
+      width: 100%;
+      float: none;
+      padding: 0; }
+  .contact-sec {
+    padding: 80px 0 50px; }
+    .contact-sec .header span {
+      padding: 0 0 20px; }
+    .contact-sec .img-holder {
+      width: 150px;
+      margin: 0 0 30px; }
+    .contact-sec .contact-list {
+      margin: 0; }
+      .contact-sec .contact-list li {
+        float: none;
+        margin: 0 0 20px; }
+        .contact-sec .contact-list li:first-child {
+          margin: 0 0 20px; }
+    .contact-sec .holder {
+      padding: 30px 0 0; }
+    .contact-sec .map-holder {
+      margin: 0 0 30px; }
+  .twocolumns {
+    padding: 50px 0 30px; }
+    .twocolumns .blog-post .img-holder .txt {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 10px 0 0 14px; }
+      .twocolumns .blog-post .img-holder .txt:before {
+        border-width: 80px 140px 0 0; }
+    .twocolumns .blog-post h3 {
+      font-size: 24px;
+      line-height: 28px; }
+    .twocolumns .blog-post .comment-nav {
+      font-size: 17px;
+      line-height: 20px; }
+  .blog-detail {
+    padding: 70px 0; }
+    .blog-detail .blog h3 {
+      font-size: 30px;
+      line-height: 35px; }
+    .blog-detail .blog .comment-nav {
+      font-size: 15px;
+      line-height: 18px; }
+  .comments-block .comment-area .img {
+    width: 15%; }
+  .comments-block .comment-area .txt-holder .header {
+    padding: 0 4px 0 0; }
+  .comments-block .onelevelcomment {
+    padding: 0 0 0 30px; }
+  .comments-form .comment-form .col {
+    width: 100%;
+    padding: 0;
+    float: none;
+    margin: 0 0 15px; }
+    .comments-form .comment-form .col:first-child {
+      padding: 0; }
+  .comments-form .comment-form .form-group {
+    margin: 0; }
+  .widget .post-list .img-holder {
+    width: 31%; }
+  #footer p {
+    margin: 0 0 20px; } }

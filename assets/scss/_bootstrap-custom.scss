@@ -1,0 +1,65 @@
+// custom variables and override bootstrap variables
+
+//== Colors
+$black:											#000;
+$white:											#fff;
+$clr-1:											#b09b21;
+$clr-2:											#9c8912;
+$clr-3:											#b7b7b7;
+$clr-4:											#0e0c0f;
+$clr-5:											#252525;
+$clr-6:											#111111;
+$clr-7:											#d8bf25;
+$clr-8:											#959595;
+$clr-9:											#ebebeb;
+$clr-10:										#555;
+$clr-11:										#898989;
+$clr-12:										#707070;
+$clr-13:										#464646;
+
+
+//== Scaffolding
+$text-color:									$clr-3;
+$link-color:									$clr-3;
+
+//== Typography
+$font-family-sans-serif2:						'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:						'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base:								14px;
+$line-height-base:								1.857;
+$headings-font-family:							$font-family-sans-serif2;
+$headings-font-weight:							700;
+$headings-color:								$black;
+
+
+
+//== Navbar
+$navbar-height:									1px;
+$navbar-margin-bottom:							0;
+$navbar-border-radius:							0;
+$navbar-padding-horizontal:						0;
+$navbar-padding-vertical:						0;
+$navbar-default-color:							$white;
+$navbar-default-bg:								transparent;
+$navbar-default-border:							transparent;
+$navbar-default-toggle-hover-bg:				transparent;
+$navbar-default-toggle-icon-bar-bg:				$white;
+$navbar-default-toggle-border-color:			transparent;
+
+//== Container sizes
+$container-lg:									1200px;
+
+//== Buttons
+$btn-font-weight:								600;
+$btn-default-color:								$black;
+$btn-default-bg:								$white;
+$btn-default-border:							$black;
+
+//== Forms
+$input-bg:										$black;
+$input-color:									$black;
+//$input-border:								$clr11;
+$input-border-radius:							0;
+//$input-border-focus:							$clr3;
+$input-color-placeholder:						$black;
+$form-group-margin-bottom:						16px;
