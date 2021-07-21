@@ -360,7 +360,7 @@ a:hover, a:focus, a.active {
 7. Banner / .banner
 -------------------------------------------------------------------*/
 .banner {
-  min-height: 961px;
+  min-height: 1000px;
   padding: 145px 0 0;
   overflow: hidden;
   position: relative;
