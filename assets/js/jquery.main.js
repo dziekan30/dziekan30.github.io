@@ -308,8 +308,8 @@ jQuery(function () {
 					src: 'assets/images/video.jpg',
 					video: {
 						src: [
-							'assets/video/video.webm',
-							'assets/video/video.mp4'
+							'https://youtu.be/c_DJNhkfm7Y',
+							'assets/video/video.webm'
 						],
 						loop: true,
 						timer: false,
