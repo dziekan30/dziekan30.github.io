@@ -324,10 +324,15 @@
       <!-- footer of the page -->
       <footer id="footer" class="bg-light">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <p>© 2022 Kamil Dziekan. All rights reserved</p>
-            </div>
+          <div class="row"> 
+          <div class="col-xs-12 col-sm-6">
+            &copy;
+            <span id="copyright">
+              <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span>
+            Kamil Dziekan. All rights reserved
+          </div>
+          
             <div class="col-xs-12 col-sm-6">
               <!-- socail network of the page -->
               <ul class="list-unstyled socail-network pull-right">
@@ -339,11 +344,11 @@
                     ><i class="fa fa-github"></i
                   ></a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="https://www.instagram.com/kamil_dziekan/"
                     ><i class="fa fa-instagram"></i
                   ></a>
-                </li>
+                </li> -->
                 <li>
                   <a href="https://www.linkedin.com/in/kamil-dziekan/"
                     ><i class="fa fa-linkedin"></i
