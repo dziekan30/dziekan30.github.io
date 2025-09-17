@@ -801,13 +801,13 @@ a:hover, a:focus, a.active {
 }
 
 .education-sec .edu-list .time {
-  font-size: 30px;
+  font-size: 18px;
   line-height: 32px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #fff;
   display: block;
-  width: 223px;
+  width: 240px;
   position: absolute;
   left: -77px;
   top: 98px;
@@ -821,13 +821,13 @@ a:hover, a:focus, a.active {
   transition: all 0.25s linear;
 }
 .education-sec .edu-list .time1 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #fff;
   display: block;
-  width: 223px;
+  width: 240px;
   position: absolute;
   left: -77px;
   top: 98px;
