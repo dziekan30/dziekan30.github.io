@@ -655,62 +655,203 @@
                 <h2 class="main-heading heading2 text-uppercase">
                   <strong class="fst-lt">M</strong>My Portfolio
                 </h2>
-                <span>&nbsp;</span>
               </header>
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-9 col-sm-offset-3">
-                <!-- filter list of the page -->
-                <ul class="filter-list list-unstyled">
-                  <li class="active"><a href="#" data-filter="*">ALL</a></li>
-                  <li><a href="#" data-filter=".group">Group Projects</a></li>
-                  <li><a href="#" data-filter=".personal">Personal</a></li>
-                  <li>
-                    <a href="#" data-filter=".contract">Contract Projects</a>
-                  </li>
-                </ul>
-                <!-- portfolio holder of the page -->
-                <div class="portfolio-holder">
-                  <div class="item personal">
-                    <!-- src="https://i.ibb.co/4NvSY25/sniffer-demo.png" -->
-                    <img src="./assets/images/projects/sniffer-demo.jpg" alt="Image" class="img-res" />
-                    <div class="over">
-                      <a href="./assets/images/projects/sniffer-demo.jpg" class="lightbox"
-                        data-fancybox="gallery"><span></span></a>
-                    </div>
-                  </div>
-                  <div class="item group">
-                    <!-- src="./assets/images/projects/what-dog-am-i.png" -->
-                    <!-- src="https://i.ibb.co/nQgDbGB/what-dog-am-i.png" -->
-                    <img src="./assets/images/projects/what-dog-am-i.png" alt="Image" class="img-res" />
-                    <div class="over">
-                      <a href="./assets/images/projects/what-dog-am-i.png" class="lightbox"
-                        data-fancybox="gallery"><span></span></a>
-                    </div>
-                  </div>
-                  <div class="item contract">
-                    <!-- src="https://i.ibb.co/c3YqG47/brilliant.png" -->
-                    <img src="./assets/images/projects/brilliant.png" alt="brilliant" class="img-res" />
-                    <div class="over">
-                      <a href="./assets/images/projects/brilliant.png" class="lightbox"
-                        data-fancybox="gallery"><span></span></a>
-                    </div>
-                  </div>
-                  <div class="item personal">
-                    <!-- src="https://i.ibb.co/KWKDHkw/choice-app.png" -->
-                    <img src="./assets/images/projects/choice-app.png" alt="choice-app" class="img-res" />
 
-                    <div class="over">
-                      <a href="./assets/images/projects/choice-app.png" class="lightbox"
-                        data-fancybox="gallery"><span></span></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center">
-                  <a href="html/loadmore.html" class="btn text-uppercase lg-round">Load More</a>
-                </div>
+            <!-- filter tabs -->
+            <div class="row">
+              <div class="col-xs-12">
+                <ul class="pf-filter list-unstyled">
+                  <li class="active"><a href="#" data-filter="*">All</a></li>
+                  <li><a href="#" data-filter=".pf-contract">Contract</a></li>
+                  <li><a href="#" data-filter=".pf-personal">Personal</a></li>
+                  <li><a href="#" data-filter=".pf-group">Group</a></li>
+                </ul>
               </div>
             </div>
+
+            <!-- project cards grid -->
+            <div class="row pf-grid" id="pf-grid">
+
+              <!-- Sniffer -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-personal">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/sniffer-demo.jpg" alt="Sniffer" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Personal</span>
+                      <h4>Sniffer</h4>
+                      <p>Dog adoption app — Ruby on Rails backend, Vue.js frontend with Twilio SMS notifications.</p>
+                      <div class="pf-actions">
+                        <a href="html/loadmore.html#sniffer" class="pf-btn"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">Ruby on Rails</span>
+                    <span class="pf-tag">Vue.js</span>
+                    <span class="pf-tag">Twilio</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Brilliant Cleaning Service -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-contract">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/brilliant.png" alt="Brilliant Cleaning Service" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Contract</span>
+                      <h4>Brilliant Cleaning Service</h4>
+                      <p>Responsive React site with Bootstrap and Email.js contact form.</p>
+                      <div class="pf-actions">
+                        <a href="https://www.brilliantservice.co/" target="_blank" class="pf-btn"><i class="fa fa-external-link"></i> Live</a>
+                        <a href="html/loadmore.html#brilliant" class="pf-btn pf-btn-ghost"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">React</span>
+                    <span class="pf-tag">Bootstrap</span>
+                    <span class="pf-tag">Email.js</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Print Smash Custom -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-contract">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/printsmashcustom.png" alt="Print Smash Custom" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Contract</span>
+                      <h4>Print Smash Custom</h4>
+                      <p>E-commerce front-end in React with Bootstrap and Email.js integration.</p>
+                      <div class="pf-actions">
+                        <a href="https://printsmash-custom.com/" target="_blank" class="pf-btn"><i class="fa fa-external-link"></i> Live</a>
+                        <a href="html/loadmore.html#printsmash" class="pf-btn pf-btn-ghost"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">React</span>
+                    <span class="pf-tag">Bootstrap</span>
+                    <span class="pf-tag">E-commerce</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- What Dog Am I -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-group">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/what-dog-am-i.png" alt="What Dog Am I" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Group</span>
+                      <h4>What Dog Am I</h4>
+                      <p>Dog breed personality quiz built with React — collaborative project.</p>
+                      <div class="pf-actions">
+                        <a href="https://what-dog-am-i.netlify.app/" target="_blank" class="pf-btn"><i class="fa fa-external-link"></i> Live</a>
+                        <a href="html/loadmore.html#whatdog" class="pf-btn pf-btn-ghost"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">React</span>
+                    <span class="pf-tag">JavaScript</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- choice-app -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-personal">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/choice-app.png" alt="Choice App" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Personal</span>
+                      <h4>Choice App</h4>
+                      <p>React Native mobile app for making decisions, cross-platform iOS &amp; Android.</p>
+                      <div class="pf-actions">
+                        <a href="html/loadmore.html#choice" class="pf-btn"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">React Native</span>
+                    <span class="pf-tag">Expo</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Guess Sucka -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-group">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/guess-sucka.png" alt="Guess Sucka" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Group</span>
+                      <h4>Guess Sucka</h4>
+                      <p>Trivia game with customizable topics &amp; difficulty using a quiz API and Vue.js.</p>
+                      <div class="pf-actions">
+                        <a href="https://guess-sucka.netlify.app/" target="_blank" class="pf-btn"><i class="fa fa-external-link"></i> Live</a>
+                        <a href="html/loadmore.html#guesssucka" class="pf-btn pf-btn-ghost"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">Vue.js</span>
+                    <span class="pf-tag">REST API</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Magnitude -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-group">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/magnitude.png" alt="Magnitude" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Group</span>
+                      <h4>Magnitude</h4>
+                      <p>COVID-19 data visualization app with interactive state grid map — React.</p>
+                      <div class="pf-actions">
+                        <a href="html/loadmore.html#magnitude" class="pf-btn"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">React</span>
+                    <span class="pf-tag">Data Viz</span>
+                    <span class="pf-tag">API</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sushi App -->
+              <div class="col-xs-12 col-sm-6 col-md-4 pf-col pf-group">
+                <div class="pf-card">
+                  <div class="pf-img">
+                    <img src="./assets/images/projects/Sushi-app.png" alt="Sushi App" />
+                    <div class="pf-overlay">
+                      <span class="pf-cat">Group</span>
+                      <h4>Sushi App</h4>
+                      <p>React app exploring REST API + Text-to-Speech features as a proof of concept.</p>
+                      <div class="pf-actions">
+                        <a href="https://sushi-jk.netlify.app/" target="_blank" class="pf-btn"><i class="fa fa-external-link"></i> Live</a>
+                        <a href="html/loadmore.html#sushi" class="pf-btn pf-btn-ghost"><i class="fa fa-eye"></i> View</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pf-footer">
+                    <span class="pf-tag">React</span>
+                    <span class="pf-tag">REST API</span>
+                    <span class="pf-tag">Speech API</span>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- /.pf-grid -->
           </div>
         </div>
       </section>
@@ -804,14 +945,38 @@
   </div>
   <script
     src="https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyDfI624nPMEKE1g3DBAHiiFOD5pb2NB5Sk"></script>
-  <!-- include jQuery -->
   <script src="./assets/js/jquery.js"></script>
-  <!-- include jQuery -->
   <script src="./assets/js/plugins.js"></script>
-  <!-- include jQuery -->
   <script src="./assets/js/jquery.main.js"></script>
 
-  <script></script>
+  <script>
+    // Portfolio filter — vanilla show/hide on .pf-filter tabs
+    (function () {
+      var filterLinks = document.querySelectorAll('.pf-filter li a');
+      var pfCols = document.querySelectorAll('.pf-col');
+
+      filterLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          // update active state
+          document.querySelectorAll('.pf-filter li').forEach(function (li) {
+            li.classList.remove('active');
+          });
+          this.parentElement.classList.add('active');
+
+          var filter = this.getAttribute('data-filter');
+          pfCols.forEach(function (col) {
+            if (filter === '*') {
+              col.classList.remove('is-hidden');
+            } else {
+              var cls = filter.replace('.', '');
+              col.classList.toggle('is-hidden', !col.classList.contains(cls));
+            }
+          });
+        });
+      });
+    })();
+  </script>
 </body>
 
 </html>
