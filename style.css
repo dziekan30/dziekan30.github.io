@@ -2619,3 +2619,314 @@ a:hover, a:focus, a.active {
   padding: 10px;
   
 }
+/* =============================================
+   ENHANCEMENTS — Professional Polish
+   ============================================= */
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section offset so fixed nav doesn't cover headings */
+section[id] {
+  scroll-margin-top: 62px;
+}
+
+/* =============================================
+   STICKY NAVIGATION
+   ============================================= */
+#site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(14, 12, 15, 0.97);
+  border-bottom: 1px solid rgba(13, 123, 105, 0.35);
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+#site-nav .nav-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#site-nav .nav-brand {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 18px 0;
+}
+
+#site-nav .nav-brand .clr {
+  color: #0D7B69;
+}
+
+#site-nav .nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#site-nav .nav-links li a {
+  display: block;
+  color: #888;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 22px 14px;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: color 0.25s ease;
+  transition: color 0.25s ease;
+}
+
+#site-nav .nav-links li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  right: 14px;
+  height: 2px;
+  background: #0D7B69;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+}
+
+#site-nav .nav-links li a:hover {
+  color: #fff;
+}
+
+#site-nav .nav-links li a:hover::after {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+/* =============================================
+   EXPERIENCE & EDUCATION TIMELINE
+   ============================================= */
+.exp-timeline {
+  margin: 16px 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 0;
+  width: 2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0D7B69), to(rgba(13, 123, 105, 0.05)));
+  background: -webkit-linear-gradient(top, #0D7B69, rgba(13, 123, 105, 0.05));
+  background: -o-linear-gradient(top, #0D7B69, rgba(13, 123, 105, 0.05));
+  background: linear-gradient(to bottom, #0D7B69, rgba(13, 123, 105, 0.05));
+}
+
+.exp-item {
+  position: relative;
+  padding: 0 0 50px 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 36px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.exp-item::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #0D7B69;
+  border: 2px solid #111111;
+  -webkit-box-shadow: 0 0 0 3px rgba(13, 123, 105, 0.22);
+          box-shadow: 0 0 0 3px rgba(13, 123, 105, 0.22);
+}
+
+.exp-meta {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 190px;
+}
+
+.exp-date {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #0D7B69;
+  padding: 3px 11px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.exp-company {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #c4c4c4;
+  margin: 10px 0 4px;
+  line-height: 1.3;
+}
+
+.exp-location {
+  display: block;
+  font-size: 12px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.exp-location .fa {
+  margin-right: 4px;
+  color: #0D7B69;
+}
+
+.exp-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+  padding-top: 1px;
+}
+
+.exp-role {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0D7B69;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.exp-bullets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.exp-bullets > li {
+  position: relative;
+  padding: 0 0 6px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #818181;
+  font-weight: 300;
+}
+
+.exp-bullets > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #0D7B69;
+  opacity: 0.75;
+}
+
+/* Education timeline — same layout, slightly different tint */
+.edu-timeline.exp-timeline::before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#20927F), to(rgba(32, 146, 127, 0.05)));
+  background: -webkit-linear-gradient(top, #20927F, rgba(32, 146, 127, 0.05));
+  background: -o-linear-gradient(top, #20927F, rgba(32, 146, 127, 0.05));
+  background: linear-gradient(to bottom, #20927F, rgba(32, 146, 127, 0.05));
+}
+
+.edu-timeline .exp-item::before {
+  background: #20927F;
+  -webkit-box-shadow: 0 0 0 3px rgba(32, 146, 127, 0.22);
+          box-shadow: 0 0 0 3px rgba(32, 146, 127, 0.22);
+}
+
+.edu-timeline .exp-date {
+  background: #20927F;
+}
+
+.edu-timeline .exp-role {
+  color: #20927F;
+}
+
+.edu-timeline .exp-bullets > li::before {
+  background: #20927F;
+}
+
+/* =============================================
+   GLOBAL ACCENT HOVER IMPROVEMENTS
+   ============================================= */
+.socail-network a:hover {
+  color: #0D7B69;
+}
+
+.abt-sec h3 a:hover {
+  color: #0D7B69;
+}
+
+#back-top:hover {
+  background: #0D7B69;
+}
+
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+@media (max-width: 991px) {
+  #site-nav .nav-links li a {
+    padding: 22px 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #site-nav .nav-links {
+    display: none;
+  }
+
+  .exp-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 8px;
+  }
+
+  .exp-meta {
+    width: auto;
+  }
+}

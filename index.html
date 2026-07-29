@@ -46,8 +46,22 @@
 				</ul>
 			</nav>
 		</header> -->
-    <!-- main of the page -->
-    <main id="main" role="main">
+    <!-- sticky site navigation -->
+  <nav id="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand"><span class="clr">K</span>amil Dziekan</a>
+      <ul class="nav-links list-unstyled">
+        <li><a href="#About">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#school">Education</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main of the page -->
+  <main id="main" role="main">
       <!-- banner of the page -->
       <section class="banner overlay">
         <div id="bgvid"></div>
@@ -121,21 +135,17 @@
                       </li>
                     </ul>
                     <p>
-                      Hello there! Thank you for stopping by. My name is Kamil
-                      Dziekan and I'm a software engineer based in Chicago. I
-                      was born in the Windy City, but I moved to Poland when I
-                      was young and came back to the United States in 2016. I
-                      became a truck driver, which I loved because I got to
-                      travel around the country and see many beautiful cities.
-                      I was also able to practice my English, and now I'm a
-                      fluent bilingual speaker of English and Polish. I've
-                      never been afraid of new challenges, and my latest
-                      endeavor is learning to code. I graduated from Actualize
-                      Bootcamp in 2020. My goal for this year is building my
-                      programming knowledge with (Ruby java, and Front-end
-                      apps) You can see a few of my projects below. I had a
-                      lot of fun making them, and I hope you enjoy looking at
-                      them.
+                      Hello there! Thank you for stopping by. My name is Kamil Dziekan —
+                      a Senior Mobile Application Developer and Full Stack Engineer based in
+                      Chicago. Born here and raised in Poland, I returned to the U.S. in 2016
+                      driven by curiosity and an appetite for new challenges. After discovering
+                      my passion for software engineering, I graduated from Actualize Bootcamp
+                      in 2020 and haven't stopped building since. I've shipped cross-platform
+                      mobile apps with React Native and Expo, architected AI-powered features
+                      using OpenAI's API, and built scalable backends with Supabase, Node.js,
+                      and AWS — all while supporting hundreds to thousands of active users.
+                      A fluent English–Polish bilingual, I bring both technical depth and
+                      clear communication to every team I join.
                     </p>
                     <span class="name">Kamil Dziekan</span>
                   </div>
@@ -370,122 +380,119 @@
                 <h2 class="main-heading heading2 text-uppercase">
                   <strong class="fst-lt">E</strong>experience
                 </h2>
-                <span><br /></span>
               </header>
             </div>
 
             <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-offset-2">
-                <ul class="edu-list list-unstyled">
+              <div class="col-xs-12">
+                <ul class="exp-timeline list-unstyled">
+
                   <!-- FLASHHOOPS -->
-                  <li class="bb">
-                    <time class="time1" datetime="2024-02">Feb 2024 – Present</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">FlashHoops</span>
-                      <span class="sub-title">Senior Mobile Application Developer • Chicago, IL</span>
-                      <p>
-                        Led React Native + Expo development for cross-platform apps; shipped new features and
-                        deployments to Apple App Store &amp; Google Play. Built AI-driven UX by integrating OpenAI API
-                        into a Next.js app. Architected Supabase backend (auth, real-time sync, storage), improving
-                        reliability and user satisfaction.
-                      </p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Feb 2024 – Jun 2026</span>
+                      <span class="exp-company">FlashHoops</span>
+                      <span class="exp-location"><i class="fa fa-map-marker"></i> Chicago, IL</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Senior Mobile Application Developer</span>
+                      <ul class="exp-bullets">
+                        <li>Led development of cross-platform mobile applications using React Native and Expo, supporting 500+ active users</li>
+                        <li>Designed and implemented intuitive UI/UX that enhanced user interaction and increased engagement</li>
+                        <li>Tested new technologies and features to ensure scalability and seamless integration across platforms</li>
+                        <li>Managed app deployment for iOS and Google Play Store, ensuring timely updates and smooth operations</li>
+                        <li>Collaborated with cross-functional teams to optimize development workflows and maintain high-quality standards for app releases</li>
+                        <li>Implemented advanced AI-driven features by integrating OpenAI's API into a Next.js app, improving user experiences and capabilities</li>
+                        <li>Architected and managed backend services with Supabase, enabling real-time data synchronization, secure user authentication, and scalable storage solutions</li>
+                      </ul>
                     </div>
                   </li>
 
-                  <!-- FISHER  (Senior) -->
-                  <li class="bb">
-                    <time class="time1" datetime="2023-03">Mar 2023 – Jul 2025</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Fisher</span>
-                      <span class="sub-title">Senior Mobile Application Developer</span>
-                      <p>
-                        Designed, developed, tested, and deployed mobile apps using React Native, TypeScript, Expo, AWS,
-                        and Google Maps API. Estimated LOE and evaluated new tech to reduce development time. Built
-                        Node.js + PostgreSQL services; maintained releases across iOS and Android.
-                      </p>
+                  <!-- FISHER (Senior) -->
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Mar 2023 – Jul 2025</span>
+                      <span class="exp-company">Fisher</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Senior Mobile Application Developer</span>
+                      <ul class="exp-bullets">
+                        <li>Designed, developed, and deployed cross-platform mobile applications using React Native, TypeScript, AWS, and REST APIs, supporting 4,000+ active users</li>
+                        <li>Utilized software development tools to develop, test, debug, and deploy quality software, improving application stability and user satisfaction</li>
+                        <li>Estimated level of effort and evaluated new technology options, streamlining processes and reducing development time</li>
+                        <li>Developed cross-platform native and hybrid mobile applications for iOS and Android</li>
+                        <li>Built code for internal applications using Node.js and PostgreSQL, improving internal processes and efficiency</li>
+                        <li>Maintained mobile applications on Apple Store and Google Play Store using Node.js and JSON</li>
+                      </ul>
                     </div>
                   </li>
 
-                  <!-- FISHER  (Mobile) -->
-                  <li class="bb">
-                    <time class="time1" datetime="2021-11">Nov 2021 – Jan 2023</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Fisher</span>
-                      <span class="sub-title">Mobile Application Developer</span>
-                      <p>
-                        Delivered cross-platform features with React Native, TypeScript, Expo. Improved internal
-                        processes with Node.js and Git; supported App Store and Play Store updates to enhance stability
-                        and UX.
-                      </p>
+                  <!-- FISHER (Mobile Developer) -->
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Nov 2021 – Jan 2023</span>
+                      <span class="exp-company">Fisher</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Mobile Application Developer</span>
+                      <ul class="exp-bullets">
+                        <li>Designed, developed, tested, and deployed mobile applications using APIs, HTML, CSS, JavaScript, React Native, TypeScript, AWS, Expo, and Google Maps API</li>
+                        <li>Developed cross-platform native and hybrid mobile applications for iOS and Android</li>
+                        <li>Built internal application code using Node.js and Git, streamlining internal processes and improving team productivity</li>
+                        <li>Maintained mobile applications on Apple Store and Google Play Store, ensuring app stability and user satisfaction</li>
+                      </ul>
                     </div>
                   </li>
 
                   <!-- KD DZIEKAN DEVELOPMENT -->
-                  <li class="bb">
-                    <time class="time1" datetime="2021-02">Feb 2021 – Present</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">KD Dziekan Development</span>
-                      <span class="sub-title">Owner &amp; Full Stack Software Developer</span>
-                      <p>
-                        Built responsive sites and apps in React/Next.js (HTML/CSS/JS/TypeScript), Bootstrap, and
-                        Supabase. Implemented email flows (SendGrid), improved conversions with redesigns, and delivered
-                        e-commerce features (payments, carts, integrations).
-                      </p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Feb 2021 – Present</span>
+                      <span class="exp-company">KD Dziekan Development</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Owner &amp; Full Stack Software Developer</span>
+                      <ul class="exp-bullets">
+                        <li>Developed front-end apps in React, customizing HTML/CSS within Bootstrap templates; integrated email contact via SendGrid API</li>
+                        <li>Redesigned responsive websites and improved conversions by 100% using JavaScript and HTML5</li>
+                        <li>Designed, developed, tested, and deployed mobile applications using React Native, TypeScript, JavaScript, CSS, and HTML</li>
+                        <li>Engaged with clients to plan and optimize site performance and user experience</li>
+                        <li>Built a functional e-commerce web app using JavaScript and APIs, enhancing user experience and increasing sales</li>
+                      </ul>
                     </div>
                   </li>
 
                   <!-- CUBISMI -->
-                  <li class="bb">
-                    <time class="time1" datetime="2021-03">Mar 2021 – May 2021</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">CUBISMI</span>
-                      <span class="sub-title">Full Stack Software Developer</span>
-                      <p>
-                        Customized email templates with React, HTML5, CSS3, and JavaScript; created prototypes in
-                        Illustrator, Photoshop, Adobe XD, and InDesign to accelerate stakeholder feedback.
-                      </p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Mar 2021 – May 2021</span>
+                      <span class="exp-company">CUBISMI</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Full Stack Software Developer</span>
+                      <ul class="exp-bullets">
+                        <li>Customized email templates according to designs provided using ReactJS, HTML5, CSS3, and JavaScript, enhancing user engagement</li>
+                        <li>Presented prototypes and concept designs using Illustrator, Photoshop, Adobe XD, and InDesign, facilitating stakeholder feedback</li>
+                      </ul>
                     </div>
                   </li>
 
                   <!-- SRNAPOS -->
-                  <li class="bb">
-                    <time class="time1" datetime="2020-11">Nov 2020 – Jan 2021</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">SRNAPOS</span>
-                      <span class="sub-title">Full Stack Software Developer</span>
-                      <p>
-                        Designed and maintained a RESTful API (Express.js, Node.js, TypeScript) for client/partner
-                        management. Implemented front-end UI (React, HTML5, CSS3, JS) and used Git/GitHub for version
-                        control.
-                      </p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Nov 2020 – Jan 2021</span>
+                      <span class="exp-company">SRNAPOS</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Full Stack Software Developer</span>
+                      <ul class="exp-bullets">
+                        <li>Designed, implemented, and maintained a RESTful API back-end for client and partner management using ExpressJS, NodeJS, and TypeScript</li>
+                        <li>Implemented front-end UI according to designs using ReactJS, HTML5, CSS3, and JavaScript</li>
+                        <li>Utilized Git/GitHub for version tracking, ensuring code integrity and facilitating team collaboration</li>
+                      </ul>
                     </div>
                   </li>
 
-                  <!-- OPTIONAL: OTHER EXPERIENCE -->
-                  <li class="bb">
-                    <time class="time1" datetime="2016-04">Apr 2016 – 2018</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Mike’s Furniture • Chicago, IL</span>
-                      <span class="sub-title">Salesperson</span>
-                      <p>
-                        Built client relationships, processed sales/credit applications, and managed inventory and
-                        displays to increase sales.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li class="bb">
-                    <time class="time1" datetime="2014-10">Oct 2014 – Feb 2016</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Makro Cash and Carry • Poland</span>
-                      <span class="sub-title">Coordinator of Delivery Department</span>
-                      <p>
-                        Promoted twice in seven months to the youngest manager; led a 20-person team coordinating routes
-                        and on-time deliveries.
-                      </p>
-                    </div>
-                  </li>
-                  <!-- END OPTIONAL -->
                 </ul>
               </div>
             </div>
@@ -560,54 +567,80 @@
             </div>
 
             <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-offset-2">
-                <ul class="edu-list list-unstyled">
-                  <li class="bb">
-                    <time class="time" datetime="2024-01">01/2024 – Present</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Wilbur Wright College • Chicago, IL</span>
-                      <span class="sub-title">Associate in Applied Science, Web Development • GPA: 4.0 • Presidential
-                        Scholar</span>
-                      <p></p>
+              <div class="col-xs-12">
+                <ul class="exp-timeline edu-timeline list-unstyled">
+
+                  <!-- Wilbur Wright — Software Development (current) -->
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">May 2026 – Present</span>
+                      <span class="exp-company">Wilbur Wright College</span>
+                      <span class="exp-location"><i class="fa fa-map-marker"></i> Chicago, IL</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Associate in Applied Science, Software Development</span>
+                      <ul class="exp-bullets">
+                        <li>GPA: 4.0 — Presidential Scholar</li>
+                      </ul>
                     </div>
                   </li>
 
-                  <li class="bb">
-                    <time class="time" datetime="2019-12">12/2019 – Mar 2020</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Actualize</span>
-                      <span class="sub-title">Certificate, Full Stack Web Development</span>
-                      <p></p>
+                  <!-- Wilbur Wright — Web Development (completed) -->
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Jan 2024 – May 2026</span>
+                      <span class="exp-company">Wilbur Wright College</span>
+                      <span class="exp-location"><i class="fa fa-map-marker"></i> Chicago, IL</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Associate in Applied Science, Web Development</span>
+                      <ul class="exp-bullets">
+                        <li>GPA: 4.0 — Presidential Scholar</li>
+                      </ul>
                     </div>
                   </li>
 
-                  <li class="bb">
-                    <time class="time" datetime="2016-01">2016 – 2017</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Malcolm X College</span>
-                      <span class="sub-title">ESL — English as a Second Language coursework</span>
-                      <p></p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">Dec 2019 – Mar 2020</span>
+                      <span class="exp-company">Actualize</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Certificate, Full Stack Web Development</span>
                     </div>
                   </li>
 
-                  <li class="bb">
-                    <time class="time" datetime="2012-01">2012 – 2014</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">PASCAL (Poland)</span>
-                      <span class="sub-title">High School (Liceum Ogólnokształcące — comparable to U.S. High
-                        School)</span>
-                      <p></p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">2016 – 2017</span>
+                      <span class="exp-company">Malcolm X College</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">ESL — English as a Second Language</span>
                     </div>
                   </li>
 
-                  <li class="bb">
-                    <time class="time" datetime="2010-01">2010 – 2012</time>
-                    <div class="txt-holder">
-                      <span class="uni-name">Zespół Szkół Hotelarsko-Gastronomicznych</span>
-                      <span class="sub-title">Vocational School — Cook</span>
-                      <p></p>
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">2012 – 2014</span>
+                      <span class="exp-company">PASCAL</span>
+                      <span class="exp-location"><i class="fa fa-map-marker"></i> Poland</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">High School Diploma</span>
                     </div>
                   </li>
+
+                  <li class="exp-item">
+                    <div class="exp-meta">
+                      <span class="exp-date">2010 – 2012</span>
+                      <span class="exp-company">Zespół Szkół Hotelarsko-Gastronomicznych</span>
+                    </div>
+                    <div class="exp-content">
+                      <span class="exp-role">Vocational School — Cook</span>
+                    </div>
+                  </li>
+
                 </ul>
               </div>
             </div>
